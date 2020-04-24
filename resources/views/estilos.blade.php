@@ -451,12 +451,10 @@
       </tbody>
     </table>
 
-    <button type="button" class="btn btn-warning btn-lg ml-1 mb-1 inline-block vertical-align" onclick="calcular();">Calcular</button>
+    <button type="button" class="btn btn-warning btn-lg ml-1 mb-1 inline-block vertical-align" onclick="calcularEstilo();">Calcular</button>
     <h3 class="display-5 text-white ml-3 mb-1 inline-block vertical-align">Su estilo de aprendizaje es <span class="text-bold" id="estiloFinal"></span></h3>
 
   </div>
 </div>
-
-<script src="{{ asset('/js/estilos.js') }}"></script>
 
 @endsection
