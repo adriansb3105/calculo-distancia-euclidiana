@@ -2,6 +2,8 @@
 
 @section('content')
 <h2 class="display-4 text-white">Cálculo de distancia Euclidiana</h2>
+<h5 class="display-4 text-white">Realizado por Adrián Serrano Brenes</h5>
+<h5 class="display-4 text-white">Carnet B36630</h5>
 
 <div class="separator"></div>
 
