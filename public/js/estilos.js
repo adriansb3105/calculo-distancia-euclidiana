@@ -12,6 +12,8 @@ function calcular() {
 
 
 
+
+
     /*Estilo viejo*/
     let caec = ca - ec;
     let eaor = ea - or;
