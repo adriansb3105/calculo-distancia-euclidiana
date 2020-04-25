@@ -70,33 +70,16 @@ function euclides(respuestas, datos) {
  */
 function valorNumerico(valor) {
     switch (valor) {
-        case 'Beginner':
-        case 'DM':
         case 'F':
         case 'Paraiso':
-        case 'Low':
-        case 'L':
-        case 'N':
-        case 'B':
         case 'CONVERGENTE':
             return 1;
 
-        case 'Intermediate':
-        case 'ND':
         case 'M':
-        case 'I':
-        case 'S':
         case 'Turrialba':
-        case 'Medium':
         case 'DIVERGENTE':
             return 2;
 
-        case 'Advanced':
-        case 'O':
-        case 'NA':
-        case 'High':
-        case 'H':
-        case 'A':
         case 'ACOMODADOR':
             return 3;
 
