@@ -22,32 +22,32 @@
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
-        <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
-        Recinto
+      <a href="/recinto" class="nav-link text-dark font-italic bg-light">
+      <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+        Recinto de origen
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
-        <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
+      <a href="#" class="nav-link text-dark font-italic bg-light">
+      <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
         Sexo
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
-        <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+      <a href="#" class="nav-link text-dark font-italic bg-light">
+      <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
         Estilo de aprendizaje
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
-        <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
+      <a href="#" class="nav-link text-dark font-italic bg-light">
+      <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
         Tipo de profesor
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
-        <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
+      <a href="#" class="nav-link text-dark font-italic bg-light">
+        <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
         Clase de red
       </a>
     </li>
