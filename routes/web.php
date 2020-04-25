@@ -24,3 +24,7 @@ Route::get('/estilo', function () {
 Route::get('/recinto', function () {
     return view('recinto');
 });
+
+Route::get('/sexos', function () {
+    return view('sexo');
+});

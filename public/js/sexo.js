@@ -1,43 +1,49 @@
-let recintos = {};
+let sexos = {};
 
 /**
  * Obtiene todos los registros de la tabla de 'estilos' de la base de datos, y la guarda en formato JSON en la variable 'estilos'
  */
 $.ajax({
     type: "GET",
-    url: '/api/recintos',
+    url: '/api/sexos',
     success: function(data) {
-        recintos = data;
+        sexos = data;
     }
 });
 
 /**
  * Este método retorna el recinto comparando las entradas del usuario y los registros de la base de datos
  */
-function calcularRecinto() {
+function calcularSexo() {
     /**
      * Verifica que los datos ya se hayan cargado de la base de datos
      */
-    if (estilos.length) {
+    if (sexos.length) {
         if (esValido()) {
             let estilo = document.getElementById('estilos').value.valueOf();
             let promedio = document.getElementById('promedio').value.valueOf();
-            let sexo = document.getElementById('sexo').value.valueOf();
+            let recinto = document.getElementById('recinto').value.valueOf();
 
             /**
              * Se crea un arreglo con los valores obtenidos de las respuestas del usuario
              */
-            let respuestas = [estilo, promedio, sexo];
+            let respuestas = [estilo, promedio, recinto];
 
             /**
-             * Envía por parámetro los valores estilo, promedio, sexo y los recintos de la base de datos a la función que calculará el estilo
+             * Envía por parámetro los valores estilo, promedio, recinto y los sexos de la base de datos a la función que calculará el estilo
              */
-            let recinto = euclides(respuestas, recintos);
+            let sexo = euclides(respuestas, sexos);
 
             /**
              * Indica en la pantalla el estilo resultante
              */
-            document.getElementById('recintoOrigen').innerHTML = recinto;
+            if (sexo == 'M') {
+                sexo = 'Masculino';
+            } else {
+                sexo = 'Femenino';
+            }
+
+            document.getElementById('sexo').innerHTML = sexo;
         } else {
             alert("Debe ingresar su último promedio para matrícula");
         }
