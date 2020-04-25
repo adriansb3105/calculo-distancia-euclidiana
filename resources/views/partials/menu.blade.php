@@ -34,9 +34,9 @@
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic bg-light">
+      <a href="/formas" class="nav-link text-dark font-italic bg-light">
       <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
-        Estilo de aprendizaje
+        Formas de aprendizaje
       </a>
     </li>
     <li class="nav-item">

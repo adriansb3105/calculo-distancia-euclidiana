@@ -35,6 +35,7 @@
     <script src="{{ asset('/js/estilos.js') }}"></script>
     <script src="{{ asset('/js/recinto.js') }}"></script>
     <script src="{{ asset('/js/sexo.js') }}"></script>
+    <script src="{{ asset('/js/formas.js') }}"></script>
 </body>
 
 </html>

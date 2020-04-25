@@ -21,3 +21,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('estilos', 'EstilosController@getEstilos');
 Route::get('recintos', 'RecintoController@getRecintos');
 Route::get('sexos', 'SexoController@getSexos');
+Route::get('formas', 'FormaController@getFormas');

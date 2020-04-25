@@ -28,3 +28,7 @@ Route::get('/recinto', function () {
 Route::get('/sexos', function () {
     return view('sexo');
 });
+
+Route::get('/formas', function () {
+    return view('formas');
+});
