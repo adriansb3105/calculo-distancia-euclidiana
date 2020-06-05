@@ -34,6 +34,10 @@ function calcularRecinto() {
              */
             let recinto = euclides(respuestas, recintos);
 
+            if (recinto == 'Paraiso') {
+                recinto = 'Paraíso';
+            }
+
             /**
              * Indica en la pantalla el estilo resultante
              */

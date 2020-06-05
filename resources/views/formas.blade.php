@@ -40,4 +40,6 @@
     <h3 class="display-5 text-white ml-3 mb-1 inline-block vertical-align">Su forma de aprendizaje es <span class="text-bold" id="forma"></span></h3>
 </div>
 
+<script src="{{ asset('/js/formas.js') }}"></script>
+
 @endsection

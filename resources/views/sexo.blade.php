@@ -42,4 +42,6 @@
     <h3 class="display-5 text-white ml-3 mb-1 inline-block vertical-align">Su sexo es <span class="text-bold" id="sexo"></span></h3>
 </div>
 
+<script src="{{ asset('/js/sexo.js') }}"></script>
+
 @endsection

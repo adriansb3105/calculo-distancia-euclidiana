@@ -73,14 +73,31 @@ function valorNumerico(valor) {
         case 'F':
         case 'Paraiso':
         case 'CONVERGENTE':
+        case 'Beginner':
+        case 'DM':
+        case 'L':
+        case 'N':
+        case 'B':
+        case 'Low':
             return 1;
 
         case 'M':
         case 'Turrialba':
         case 'DIVERGENTE':
+        case 'Intermediate':
+        case 'ND':
+        case 'I':
+        case 'S':
+        case 'Medium':
             return 2;
 
         case 'ACOMODADOR':
+        case 'Advanced':
+        case 'O':
+        case 'NA':
+        case 'H':
+        case 'A':
+        case 'High':
             return 3;
 
         case 'ASIMILADOR':

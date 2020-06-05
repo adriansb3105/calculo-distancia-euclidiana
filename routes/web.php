@@ -32,3 +32,15 @@ Route::get('/sexos', function () {
 Route::get('/formas', function () {
     return view('formas');
 });
+
+Route::get('/profesores', function () {
+    return view('profesores');
+});
+
+Route::get('/redes', function () {
+    return view('redes');
+});
+
+Route::get('/eficiencia', function () {
+    return view('eficiencia');
+});

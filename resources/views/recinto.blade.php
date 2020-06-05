@@ -42,4 +42,6 @@
     <h3 class="display-5 text-white ml-3 mb-1 inline-block vertical-align">Su recinto de origen es <span class="text-bold" id="recintoOrigen"></span></h3>
 </div>
 
+<script src="{{ asset('/js/recinto.js') }}"></script>
+
 @endsection

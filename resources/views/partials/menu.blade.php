@@ -39,20 +39,27 @@
         Formas de aprendizaje
       </a>
     </li>
-    <!--
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic bg-light">
+      <a href="/profesores" class="nav-link text-dark font-italic bg-light">
       <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
         Tipo de profesor
       </a>
     </li>
+    
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic bg-light">
+      <a href="/redes" class="nav-link text-dark font-italic bg-light">
         <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
-        Clase de red
+        Clasificación de redes
       </a>
     </li>
--->
+
+    <li class="nav-item">
+      <a href="/eficiencia" class="nav-link text-dark font-italic bg-light">
+        <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+        Medir la eficiencia
+      </a>
+    </li>
+
   </ul>
 </div>
 <!-- End vertical navbar -->

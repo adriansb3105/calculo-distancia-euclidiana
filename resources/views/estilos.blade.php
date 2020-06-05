@@ -457,4 +457,6 @@
   </div>
 </div>
 
+<script src="{{ asset('/js/estilos.js') }}"></script>
+
 @endsection

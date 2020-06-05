@@ -22,3 +22,5 @@ Route::get('estilos', 'EstilosController@getEstilos');
 Route::get('recintos', 'RecintoController@getRecintos');
 Route::get('sexos', 'SexoController@getSexos');
 Route::get('formas', 'FormaController@getFormas');
+Route::get('profesores', 'ProfesorController@getProfesores');
+Route::get('redes', 'RedController@getRedes');
